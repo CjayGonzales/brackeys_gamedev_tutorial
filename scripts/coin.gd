@@ -5,7 +5,7 @@ extends Area2D
 # used a collision to set the coin to only interact with the player
 
 func _on_body_entered(body: Node2D) -> void:
-	print("Hello World")
+	print("+1 coin")
 	
 	#removes coin from scene
 	queue_free()
