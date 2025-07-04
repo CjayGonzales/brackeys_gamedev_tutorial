@@ -241,7 +241,7 @@ z_index = 5
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
 animation = &"roll"
-frame_progress = 0.204816
+frame_progress = 0.305978
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -5)

@@ -38,7 +38,7 @@ func _physics_process(delta: float) -> void:
 	elif direction < 0:
 		animated_sprite_2d.flip_h = true
 		
-	# play animations
+	# play animations 
 	if is_on_floor():
 		if direction == 0:
 			animated_sprite_2d.play("idle")
